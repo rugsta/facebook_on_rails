@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 <div class="container">
 <h2>Sign up</h2>
 
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: {class: 'form-horizontal'}) do |f| %>
+=======
+<h2>Sign up</h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+>>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
   <%= f.error_notification %>
 
   <div class="form-inputs">
@@ -11,9 +17,16 @@
   </div>
 
   <div class="form-actions">
+<<<<<<< HEAD
     <%= f.button :submit, "Sign up", class: "btn btn-primary" %>
+=======
+    <%= f.button :submit, "Sign up" %>
+>>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
