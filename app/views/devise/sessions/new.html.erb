@@ -1,13 +1,13 @@
-<<<<<<< HEAD
+
 <div class="container">
 <h2>Sign in</h2>
 
 <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: 'form-horizontal'}) do |f| %>
-=======
+
 <h2>Sign in</h2>
 
 <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
->>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
+
   <div class="form-inputs">
     <%= f.input :email, :required => false, :autofocus => true %>
     <%= f.input :password, :required => false %>
@@ -15,16 +15,15 @@
   </div>
 
   <div class="form-actions">
-<<<<<<< HEAD
+
     <%= f.button :submit, "Sign in", class: "btn btn-primary"  %>
-=======
     <%= f.button :submit, "Sign in" %>
->>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
+
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
-<<<<<<< HEAD
+
 </div>
-=======
->>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
+
+  <% end %>

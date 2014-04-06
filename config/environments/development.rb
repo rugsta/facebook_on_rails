@@ -26,9 +26,5 @@ FacebookOnRails::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-<<<<<<< HEAD
-=======
-
->>>>>>> eb4e73ad31fe2852e4ab2ff1c8f37fb18a73eba6
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
